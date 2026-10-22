@@ -11,4 +11,4 @@ Repositório criado para praticar o fluxo básico de versionamento (`init`, `add
 - Criação do repositório e primeiros commits
 - Teste do `.gitignore` com uma pasta `node_modules/`
 
-> Observação: o `.gitignore` está vazio, por isso o arquivo de teste em `node_modules/` acabou sendo versionado. Para ignorar a pasta, basta adicionar a linha `node_modules/` ao `.gitignore` e rodar `git rm -r --cached node_modules`.
+> O `.gitignore` contém `node_modules/`, então a pasta de teste não é mais versionada (removida do índice com `git rm --cached`).
